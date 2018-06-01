@@ -8,6 +8,6 @@
 ## Codacy code
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/14b6c20857ef4b67839511f412cc8dc7)](https://www.codacy.com/app/juanbastidasj10/proyecto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=juanbastidas05/proyecto&amp;utm_campaign=Badge_Grade)
 ## Codacy coverage
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/14b6c20857ef4b67839511f412cc8dc7)](https://www.codacy.com/app/juanbastidasj10/proyecto?utm_source=github.com&utm_medium=referral&utm_content=juanbastidas05/proyecto&utm_campaign=Badge_Coverage)
 ## Snyk
 
