@@ -10,4 +10,4 @@
 ## Codacy coverage
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/14b6c20857ef4b67839511f412cc8dc7)](https://www.codacy.com/app/juanbastidasj10/proyecto?utm_source=github.com&utm_medium=referral&utm_content=juanbastidas05/proyecto&utm_campaign=Badge_Coverage)
 ## Snyk
-
+[![Known Vulnerabilities](https://snyk.io/test/github/juanbastidas05/proyecto/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/juanbastidas05/proyecto?targetFile=requirements.txt)
