@@ -30,6 +30,7 @@ print (df['FECHA_VST'])
 
 df=df[df.NOMBRE_ESV[:]=='REALIZADA']
 print (df)
+df.reset_index().to_csv('Escenario_20.csv',header=True,index=False)
 
 df['INTERPHARM']=df['NOMBRE_EMP']
 df['SIEGFRIED']=df['NOMBRE_EMP']
@@ -48,11 +49,11 @@ df['SIEGFRIED'].replace(to_replace=['INTERPHARM','NUTRICIONAL'],value=0,inplace=
 df['NUTRICIONAL'].replace(to_replace=['SIEGFRIED','INTERPHARM'],value=0,inplace=True)
 print (df)
 
-porcentaje=0.40
+porcentaje=0.40 #Se descarta
 prueba=df.sample(frac=porcentaje,random_state=1)
 modelo=df.drop(prueba.index)
 
-agrupa='2d'
+agrupa='1d'
 #agrupa2='60min'
 
 pruebadf=prueba.resample(agrupa,on='FECHA_VST').sum()
@@ -67,7 +68,7 @@ df=df#.groupby('Tiempo').mean()
 print (df)
 df.reset_index().to_csv('test1.csv',header=True,index=False)
 
-tarea=5
+tarea=4
 tabla1=Calcular.escenario1(df,tarea)
 print(tabla1)
 tabla1.reset_index().to_csv('Escenario_1.csv',header=True,index=False)

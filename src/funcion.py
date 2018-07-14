@@ -55,3 +55,4 @@ class Calcular():
         escenario.ix[escenario.index[0:tamano - tarea], 3 * tarea+2] = df.ix[df.index[tarea:tamano], empresa3]
         escenario.ix[escenario.index[0:tamano - tarea], 3 * tarea+3] = df.ix[df.index[tarea:tamano], 'NOMBRE_ESV']
         return escenario
+
